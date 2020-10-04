@@ -170,7 +170,7 @@ if(BUILD_python)
       endif()
     endwhile()
     if(NOT Boost_PYTHON_FOUND)
-      find_package(Boost 1.46 COMPONENTS python)
+      find_package(Boost 1.46 COMPONENTS python36)
     endif()
   else()
     # disable Python 3 search
